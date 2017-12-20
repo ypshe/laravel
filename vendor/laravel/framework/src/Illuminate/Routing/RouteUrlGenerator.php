@@ -11,7 +11,7 @@ class RouteUrlGenerator
     /**
      * The URL generator instance.
      *
-     * @var \Illuminate\Routing\UrlGenerator
+     * @param  \Illuminate\Routing\UrlGenerator
      */
     protected $url;
 

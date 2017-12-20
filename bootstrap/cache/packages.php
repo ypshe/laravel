@@ -1,4 +1,15 @@
 <?php return array (
+  'encore/laravel-admin' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Encore\\Admin\\AdminServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Admin' => 'Encore\\Admin\\Facades\\Admin',
+    ),
+  ),
   'fideloper/proxy' => 
   array (
     'providers' => 
@@ -11,13 +22,6 @@
     'providers' => 
     array (
       0 => 'Laravel\\Tinker\\TinkerServiceProvider',
-    ),
-  ),
-  'orangehill/iseed' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Orangehill\\Iseed\\IseedServiceProvider',
     ),
   ),
 );
