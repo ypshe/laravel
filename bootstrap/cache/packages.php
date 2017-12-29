@@ -1,15 +1,4 @@
 <?php return array (
-  'encore/laravel-admin' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Encore\\Admin\\AdminServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Admin' => 'Encore\\Admin\\Facades\\Admin',
-    ),
-  ),
   'fideloper/proxy' => 
   array (
     'providers' => 
@@ -22,6 +11,17 @@
     'providers' => 
     array (
       0 => 'Laravel\\Tinker\\TinkerServiceProvider',
+    ),
+  ),
+  'nwidart/laravel-modules' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Nwidart\\Modules\\LaravelModulesServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Module' => 'Nwidart\\Modules\\Facades\\Module',
     ),
   ),
 );
